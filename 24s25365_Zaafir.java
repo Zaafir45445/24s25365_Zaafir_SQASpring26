@@ -21,6 +21,7 @@ class JobDemandClassifier {
         System.out.println("3. Engineering");
         System.out.println("4. Education");
         System.out.println("5. Tourism");
+        System.out.println("6. Logistics");
         System.out.print("Enter sector number: ");
 
         if (!scanner.hasNextInt()) {
@@ -47,6 +48,9 @@ class JobDemandClassifier {
             case 5:
                 sector = "Tourism";
                 break;
+            case 6:
+                sector = "Logistics";
+                break;    
             default:
                 System.out.println("Error: Invalid sector selected.");
                 scanner.close();
