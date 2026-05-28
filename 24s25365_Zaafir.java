@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Module: COMP 30010.1 Software Quality Assurance
  */
 class JobDemandClassifier {
-    private static final int HIGH_DEMAND_THRESHOLD = 1000;
+    private static final int HIGH_DEMAND_THRESHOLD = 1200;
     private static final int MEDIUM_DEMAND_THRESHOLD = 500;
 
     public static void main(String[] args) {
